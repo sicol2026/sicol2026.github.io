@@ -69,6 +69,10 @@ header{
   flex-direction:column;
 }
 
+.closed-date {
+  text-decoration: line-through;
+}
+
 .kicker{
   font-size:16px;
   letter-spacing:.12em;
@@ -123,6 +127,7 @@ main{
   border:1px solid var(--line);
   border-radius:var(--radius);
 }
+
 
 section{
   margin-top:30px;
