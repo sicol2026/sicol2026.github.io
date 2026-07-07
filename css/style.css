@@ -196,15 +196,15 @@ section[id]{
   justify-content: center;   /* 가운데 정렬. 왼쪽 정렬 원하면 flex-start */
   align-items: center;
   gap: 32px;
+  width: 100%;
   background: #ffffff;
   padding: 24px 0;
   flex-wrap: wrap;           /* 화면 좁아지면 자동 줄바꿈 */
 }
 
 .logo-strip img {
-  height: 44px;
+  height: 60px;
   width: auto;
   object-fit: contain;
 }
 
-}
