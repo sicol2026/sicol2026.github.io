@@ -208,27 +208,25 @@ section[id]{
   object-fit: contain;
 }
 
-<style>
-  /* program-only styles (scoped by .pgm prefix) */
-  .pgm-table{width:100%;border-collapse:collapse;margin:10px 0 4px}
-  .pgm-table td{padding:8px 10px 8px 0;border-bottom:1px solid var(--line, #ddd);vertical-align:top}
-  .pgm-time{white-space:nowrap;width:1%;padding-right:18px;font-weight:600;font-size:.95em}
-  .pgm-tracks{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:12px 0 4px}
-  @media (max-width:720px){.pgm-tracks{grid-template-columns:1fr}}
-  .pgm-track{border:1px solid var(--line, #ddd);border-radius:6px;padding:12px 14px}
-  .pgm-track h4{margin:0 0 10px;font-size:1em}
-  .pgm-track ul{list-style:none;margin:0;padding:0}
-  .pgm-track li{margin-bottom:10px}
-  .pgm-slot{display:block;font-size:.85em;color:#777}
-  .pgm-posters{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 4px}
-  .pgm-posters a{display:inline-block;padding:5px 12px;border:1px solid var(--line, #ddd);
-    border-radius:4px;text-decoration:none;font-size:.92em}
-  .pgm-posters a:hover{border-color:#999}
-  .pgm-h3{margin:22px 0 6px}
-  .pgm-tba{color:#999;font-style:italic}
+/* program-only styles (scoped by .pgm prefix) */
+.pgm-table{width:100%;border-collapse:collapse;margin:10px 0 4px}
+.pgm-table td{padding:8px 10px 8px 0;border-bottom:1px solid var(--line, #ddd);vertical-align:top}
+.pgm-time{white-space:nowrap;width:1%;padding-right:18px;font-weight:600;font-size:.95em}
+.pgm-tracks{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:12px 0 4px}
+@media (max-width:720px){.pgm-tracks{grid-template-columns:1fr}}
+.pgm-track{border:1px solid var(--line, #ddd);border-radius:6px;padding:12px 14px}
+.pgm-track h4{margin:0 0 10px;font-size:1em}
+.pgm-track ul{list-style:none;margin:0;padding:0}
+.pgm-track li{margin-bottom:10px}
+.pgm-slot{display:block;font-size:.85em;color:#777}
+.pgm-posters{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 4px}
+.pgm-posters a{display:inline-block;padding:5px 12px;border:1px solid var(--line, #ddd);
+  border-radius:4px;text-decoration:none;font-size:.92em}
+.pgm-posters a:hover{border-color:#999}
+.pgm-h3{margin:22px 0 6px}
+.pgm-tba{color:#999;font-style:italic}
 
-  /* ===== 링크 숨김 (프로그램 확정 시 아래 3줄 삭제) ===== */
-  #program .pgm-track a, #program .pgm-posters a { display: none; }
-  #program .pgm-track li::after { content: "TBA"; color: #999; font-style: italic; }
-  #program .pgm-posters::after { content: "Paper list to be announced."; color: #999; font-style: italic; }
-</style>
+/* ===== 링크 숨김 (프로그램 확정 시 아래 3줄 삭제) ===== */
+#program .pgm-track a, #program .pgm-posters a { display: none; }
+#program .pgm-track li::after { content: "TBA"; color: #999; font-style: italic; }
+#program .pgm-posters::after { content: "Paper list to be announced."; color: #999; font-style: italic; }
