@@ -184,3 +184,23 @@ html{
 section[id]{
   scroll-margin-top: var(--header-offset, 120px);
 }
+
+.inline-logo {
+  height: 1em;        /* 텍스트 높이에 맞춤 */
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.logo-strip {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.logo-strip img {
+  height: 40px;        /* 원하는 크기로 조정 */
+  width: auto;
+  object-fit: contain;
+}
