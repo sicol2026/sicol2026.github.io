@@ -228,8 +228,9 @@ section[id]{
 .pgm-title {display:block;font-weight:600;margin-right:8px}
 .pgm-authors {display:block;font-size:0.9em;color: #666;margin-right:8px}
 
-/* ===== 링크 숨김 (프로그램 확정 시 아래 3줄 삭제) ===== */
-#program .pgm-track a, #program .pgm-posters a { display: none; }
-#program .pgm-title, #program .pgm-authors #program .pgm-slot { display: none; }
+/* ===== 링크 숨김 (프로그램 확정 시 아래 삭제) ===== */
+#program .pgm-track a { display: none; }
+#program .pgm-track .pgm-title, #program .pgm-track .pgm-authors, #program .pgm-track .pgm-slot { display: none; }
 #program .pgm-track li::after { content: "TBA"; color: #999; font-style: italic; }
+#program .pgm-posters li { display: none; }
 #program .pgm-posters::after { content: "Paper list to be announced."; color: #999; font-style: italic; }
