@@ -218,15 +218,15 @@ section[id]{
 .pgm-track h4{margin:0 0 10px;font-size:1em}
 .pgm-track ul{list-style:none;margin:0;padding:0}
 .pgm-track li{margin-bottom:10px}
-.pgm-slot{display:block;font-size:.85em;color:#777}
+.pgm-slot{display:block;font-size:.85em;color:#777;margin-right:8px}
 .pgm-posters{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 4px}
 .pgm-posters a{display:inline-block;padding:5px 12px;border:1px solid var(--line, #ddd);
   border-radius:4px;text-decoration:none;font-size:.92em}
 .pgm-posters a:hover{border-color:#999}
 .pgm-h3{margin:22px 0 6px}
 .pgm-tba{color:#999;font-style:italic}
-.pgm-title { display: block; font-weight: 600; }
-.pgm-authors { display: block; font-size: 0.9em; color: #666; }
+.pgm-title {display:block;font-weight:600;margin-right:8px}
+.pgm-authors {display:block;font-size:0.9em;color: #666;margin-right:8px}
 
 /* ===== 링크 숨김 (프로그램 확정 시 아래 3줄 삭제) ===== */
 #program .pgm-track a, #program .pgm-posters a { display: none; }
