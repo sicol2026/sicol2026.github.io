@@ -232,5 +232,6 @@ section[id]{
 #program .pgm-track a { display: none; }
 #program .pgm-track .pgm-title, #program .pgm-track .pgm-authors, #program .pgm-track .pgm-slot { display: none; }
 #program .pgm-track li::after { content: "TBA"; color: #999; font-style: italic; }
+#program .pgm-invited { display: none; }
 #program .pgm-posters li { display: none; }
 #program .pgm-posters::after { content: "Paper list to be announced."; color: #999; font-style: italic; }
