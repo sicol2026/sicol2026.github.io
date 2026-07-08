@@ -230,5 +230,6 @@ section[id]{
 
 /* ===== 링크 숨김 (프로그램 확정 시 아래 3줄 삭제) ===== */
 #program .pgm-track a, #program .pgm-posters a { display: none; }
+#program .pgm-title, #program .pgm-authors { display: none; }
 #program .pgm-track li::after { content: "TBA"; color: #999; font-style: italic; }
 #program .pgm-posters::after { content: "Paper list to be announced."; color: #999; font-style: italic; }
