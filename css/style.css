@@ -33,13 +33,13 @@ header{
 }
 
 .main-logo{
-  margin: 20px 0 10px;
+  margin: 0 0 10px;
   text-align: center;   /* 가운데 정렬 */
 }
 
 .main-logo img{
   width: 100%;          /* 부모 너비에 맞춤 */
-  max-width: 700px;     /* 최대 크기 */
+  max-width: 900px;     /* 최대 크기 */
   height: auto;         /* 비율 유지 */
   display: block;
   margin: 0 auto;       /* 이미지 가운데 */
