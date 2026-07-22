@@ -231,6 +231,3 @@ section[id]{
 .pgm-title {display:block;font-weight:600;margin-right:8px}
 .pgm-authors {display:block;font-size:0.9em;color: #666;margin-right:8px}
 
-#program .pgm-track li::after { content: "TBA"; color: #999; font-style: italic; }
-#program .pgm-posters li { display: none; }
-#program .pgm-posters::after { content: "Paper list to be announced."; color: #999; font-style: italic; }
